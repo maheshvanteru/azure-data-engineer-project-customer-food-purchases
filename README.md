@@ -26,4 +26,27 @@ By the end of the setup you should have(or know how to use)
 
 ![Engineering Design](assets/images/eng_spec.jpg)
 
+
 ## Data
+
+Data is available at [data](customer-purchases-in-json/*.json) this folder.
+This data can be generated using the [Script](generate-purchases-data/script_purchase_data.py)
+Follow the steps in Py file to generate the purchases-data.
+
+## Steps
+
+
+1. Create an `S3` bucket, with proper IAM policies. Generate the AccessID and AccessKEY for the S3 Bucket to access it from a different environment, Azure for an example. 
+
+2. Create `ADLS` storage account, KeyVault account under the Same Subscription to have an easy access among the services with easy billing. 
+
+3. Add the AccessID and AccessKEY in Azure `Key Vault` with right access policies, choose the recommended access policy. 
+
+4. Access `Azure Data Factory`, Create New Pipeline with Copy Data action, define the Source and Sink, with respective `Linked services` connecting to `S3` and `ADLS`. 
+
+3. With this, We should be able to ingest the data into `ADLS`, if we run the Pipeline. 
+
+4. Now considering all this process to be automated by itself, We need to create a `Storage Trigger`. 
+
+5. Storage Trigger - Upon data arrival into ADLS, the pipeline should get triggered that ingests the right formatted data only into `Azure SQL`. 
+
