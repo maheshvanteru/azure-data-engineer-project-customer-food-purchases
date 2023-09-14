@@ -29,9 +29,9 @@ By the end of the setup you should have(or know how to use)
 
 ## Data
 
-Data is available at ![data](customer-purchases-in-json/purchases-{date}.json).
+Data is available at [data](customer-purchases-in-json/purchases-{date}.json).
 
-This data can be generated using the ![script](generate-purchases-data/script_purchases_data.py)
+This data can be generated using the [script](generate-purchases-data/script_purchases_data.py)
 
 Follow the steps in Py file to generate the purchases-data.
 
