@@ -29,7 +29,7 @@ By the end of the setup you should have(or know how to use)
 
 ## Data
 
-Data is available at [data](customer-purchases-in-json/purchases-{date}.json).
+Data is available at [data](customer-purchases-in-json/purchases-2023-09-13.json).
 
 This data can be generated using the [script](generate-purchases-data/script_purchases_data.py)
 
