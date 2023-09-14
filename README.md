@@ -24,6 +24,6 @@ By the end of the setup you should have(or know how to use)
 
 ## Design
 
-![Engineering Design](assets/images/eng_spec.png)
+![Engineering Design](assets/images/eng_spec.jpg)
 
 ## Data
