@@ -6,8 +6,8 @@ import os
 # Python script to generate the n - number of purchases.
 # -> YYYY-MM-DD Change this date to your desired input date
 
-Total_Purchases = 100
-# Purchase_Date = "2023-09-11"                                      # If you want a specific date
+Total_Purchases = 15000
+# Purchase_Date = "2023-09-24"                                      # If you want a specific date
 Purchase_Date = datetime.datetime.today().strftime("%Y-%m-%d")      # generates today's date
 
 # generate Items Qty
@@ -59,6 +59,5 @@ if __name__ == "__main__":
             purchase = generate_purchase_history()
             purchase_list.append(purchase)
 
-        PurchaseHistory = {"PurchaseHistory": purchase_list}
-        fp.write(json.dumps(PurchaseHistory, indent=4))
+        fp.write(json.dumps(purchase_list, indent=4))
 

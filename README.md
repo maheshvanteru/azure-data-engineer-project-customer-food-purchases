@@ -52,3 +52,20 @@ Follow the steps in Py file to generate the purchases-data.
 
 5. Storage Trigger - Upon data arrival into ADLS, the pipeline should get triggered that ingests the right formatted data only into `Azure SQL`. 
 
+
+## Data Factory Trigger event
+
+![Engineering Design](assets/images/eng_datafactory_trigger_event.png)
+![Engineering Design](assets/images/eng_blob_trigger_event.png)
+
+## Azure SQL Data Ingestion
+
+![Engineering Design](assets/images/eng_sql_db_data.png)
+
+
+## Power BI Analysis
+
+![Engineering Design](assets/images/eng_powerbi_analysis_1.png)
+
+![Engineering Design](assets/images/eng_powerbi_analysis_2.png)
+
