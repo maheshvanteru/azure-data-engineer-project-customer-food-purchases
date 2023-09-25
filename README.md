@@ -11,7 +11,7 @@ This project gives a real-time understanding of how data is ingested into Azure 
 ## Prereq
 
 1. [Azure account] (https://azure.microsoft.com/) to setup azure services
-2. [AWS account](https://aws.amazon.com/) to set up S3 Bucket component
+2. [AWS account] (https://aws.amazon.com/) to set up S3 Bucket component
 
 By the end of the setup you should have(or know how to use)
 
