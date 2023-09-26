@@ -1,4 +1,4 @@
-# azure-data-engineer-project-customer-food-purchases
+# azure-data-engineer-project-food-store-data-projections
 
 ## Beginner Data Engineering Project 
 ## Description
